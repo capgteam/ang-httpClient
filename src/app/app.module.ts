@@ -9,6 +9,7 @@ import { CreateTaskComponent } from './dashboard/create-task/create-task.compone
 import { FormsModule } from '@angular/forms';
 import { HttpClientModule, HTTP_INTERCEPTORS } from '@angular/common/http';
 import { TaskDetailsComponent } from './dashboard/task-details/task-details.component';
+import { RouteModule } from './route.module';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { TaskDetailsComponent } from './dashboard/task-details/task-details.comp
   imports: [
     BrowserModule,
     FormsModule,
-    HttpClientModule
+    HttpClientModule,
+    RouteModule
   ],
   providers: [],
   bootstrap: [AppComponent]

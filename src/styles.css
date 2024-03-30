@@ -9,8 +9,21 @@
 }
 body{
     font-family: 'Poppins', sans-serif;
+    overflow-y: auto;
 }
 
 h1, h2, h3, h4, h5, h6, p{
     margin: 5px 0px;
 }
+
+::-webkit-scrollbar {
+    width: 6px;
+  }
+  
+  ::-webkit-scrollbar-track {
+    background-color: #dedede;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background-color: #28282B;
+  }
